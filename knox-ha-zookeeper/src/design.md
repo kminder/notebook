@@ -1,5 +1,5 @@
 
-'''
+```
 /knox
   /{cluster}
     /conf
@@ -14,4 +14,4 @@
           /{topology}-credentials.jceks
     /deployments
       /{topology}.xml
-'''
+```
