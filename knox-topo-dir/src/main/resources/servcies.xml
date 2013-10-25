@@ -1,0 +1,23 @@
+<services>
+    <service>
+        <role>HDFS</role>
+        <endpoints>
+            <endpoint>
+                <role>NAMENODE</role>
+                <url>hdfs://localhost:8020</url>
+                <chain></chain>
+            </endpoint>
+            <endpoint>
+                <role>WEBHDFS</role>
+                <url>http://localhost:50070/webhdfs</url>
+                <chain></chain>
+            </endpoint>
+        </endpoints>
+        <params>
+            <param>
+                <name></name>
+                <value></value>
+            </param>
+        </params>
+    </service>
+</services>

@@ -1,0 +1,14 @@
+<gateway>
+    <chains>
+        <default></default>
+        <chain>
+            <name></name>
+            <providers>
+                <provider>
+                    <role></role>
+                    <name></name>
+                </provider>
+            </providers>
+        </chain>
+    </chains>
+</gateway>

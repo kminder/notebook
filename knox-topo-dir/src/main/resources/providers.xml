@@ -1,0 +1,14 @@
+<providers>
+    <provider>
+        <role></role>
+        <name></name>
+        <enabled></enabled>
+        <config></config>
+        <params>
+            <param>
+                <name></name>
+                <value></value>
+            </param>
+        </params>
+    </provider>
+</providers>
