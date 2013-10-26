@@ -18,6 +18,7 @@ Thinking around the content of each follows.
 # providers.xml
 
 This file catalogs and configures the available providers in the cluster.
+
 NOTE: Need to include a provider out of the box that can contribute a standard servlet filter.
 
 ```xml
