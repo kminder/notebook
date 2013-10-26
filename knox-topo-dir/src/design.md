@@ -1,7 +1,8 @@
 Instead of a single topology file there would be directory.
 For example `sandbox.xml` would become `sandbox`.
 The creation of `sandbox.war.{timestamp}` would not change but the timestamp would be that of the _newest_ file in the dir.
-The topo dir would contain the following files
+Could also use a timestamp or trigger file in the directory who's timestamp would be monitored.
+The topo dir would contain the following files:
 ```
 {GATEWAY_HOME}/deployments/sandbox/
     providers.xml
@@ -17,6 +18,7 @@ Thinking around the content of each follows.
 # providers.xml
 
 This file catalogs and configures the available providers in the cluster.
+NOTE: Need to include a provider out of the box that can contribute a standard servlet filter.
 
 ```xml
 <providers>
